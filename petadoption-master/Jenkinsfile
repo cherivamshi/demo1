@@ -4,7 +4,7 @@ stages {
 stage('Build') {
 steps {
 
-git 'https://github.com/Sumantbag1992/petadoption.git'
+git 'https://github.com/cherivamshi/demo1.git'
 
 sh "./mvnw compile"
 echo 'Building...'
